@@ -3,11 +3,6 @@
 <suite thread-count="3" parallel="classes" name="Failed suite [Functional Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="3" parallel="classes" name="Test(failed)">
     <classes>
-      <class name="com.starAgile.SeleniumGrid.FirefoxTest">
-        <methods>
-          <include name="testFirefox"/>
-        </methods>
-      </class> <!-- com.starAgile.SeleniumGrid.FirefoxTest -->
       <class name="com.starAgile.SeleniumGrid.ChromeTest">
         <methods>
           <include name="testChrome"/>
@@ -18,6 +13,11 @@
           <include name="testEdge"/>
         </methods>
       </class> <!-- com.starAgile.SeleniumGrid.EdgeTest -->
+      <class name="com.starAgile.SeleniumGrid.FirefoxTest">
+        <methods>
+          <include name="testFirefox"/>
+        </methods>
+      </class> <!-- com.starAgile.SeleniumGrid.FirefoxTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Functional Test Suite] -->
