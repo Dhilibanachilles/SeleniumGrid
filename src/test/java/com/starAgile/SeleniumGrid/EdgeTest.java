@@ -22,7 +22,7 @@ public class EdgeTest {
 	//	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("www.netflix.com");
 	//	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		System.out.println("Title of the page " + driver.getTitle());
+		System.out.println("Title of the page : " + driver.getTitle());
 	//	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.quit();
 	}
