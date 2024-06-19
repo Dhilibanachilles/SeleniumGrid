@@ -32,9 +32,9 @@ public class ParallelExecution {
 			driver = new RemoteWebDriver(new URL("http://localhost:4444"),options);
 			System.out.println("Connection established with edge");
 		}
-		Thread.sleep(20000);
+		Thread.sleep(5000);
 		driver.get("https://www.amazon.in");
-		Thread.sleep(20000);
+		Thread.sleep(5000);
 		System.out.println("Application is being executed parallelly");
 		driver.quit();
 	}
