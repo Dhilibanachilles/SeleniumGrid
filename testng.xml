@@ -4,19 +4,19 @@
 	<test name="test1" thread-count="5">
 	<parameter name="bname" value="chrome"></parameter>
 		<classes>
-			<class name="com.starAgile.SeleniumGrid.ParallelExecution"></class>
+			<class name="grid.ParallelExecution"></class>
 		</classes>
 	</test> <!-- Test -->
 	<test name="Test2" thread-count="5">
 	<parameter name="bname" value="firefox"></parameter>
 		<classes>
-			<class name="com.starAgile.SeleniumGrid.ParallelExecution"></class>
+			<class name="grid.ParallelExecution"></class>
 		</classes>
 	</test> <!-- Test -->
 	<test name="Test3" thread-count="5">
 	<parameter name="bname" value="edge"></parameter>
 		<classes>
-			<class name="com.starAgile.SeleniumGrid.ParallelExecution"></class>
+			<class name="grid.ParallelExecution"></class>
 		</classes>
 	</test> <!-- Test -->
 </suite>

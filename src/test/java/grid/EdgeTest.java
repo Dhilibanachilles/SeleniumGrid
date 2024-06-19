@@ -1,4 +1,4 @@
-package com.starAgile.SeleniumGrid;
+package grid;
 
 import java.net.MalformedURLException;
 import java.net.URL;
